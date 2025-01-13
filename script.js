@@ -1,4 +1,4 @@
-const apiKey = "AIzaSyBZ8MXyxp780j3ZPUdN4C0ePpeIJ6ifDiU";
+const apiKey = "AIzaSyANh3Bn69AquORDdAh35hExtRys1jsNnHM";
 const videoPlayer = document.getElementById("video-player");
 const randomButton = document.getElementById("random-video-button");
 const channelOptionsContainer = document.getElementById("channel-options");
