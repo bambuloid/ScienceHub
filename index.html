@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Informative Videos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="overlay"></div>
+    <div id="sidebar">
+        <h2>Channel Selection</h2>
+        <div id="channel-options"></div>
+        <input type="text" id="new-channel-input" placeholder="Add Channel ID">
+        <button id="add-channel">Add Channel</button>
+        <button id="enable-all">Enable All</button>
+        <button id="disable-all">Disable All</button>
+    </div>
+    <button id="toggle-sidebar">&equiv;</button>
+    <div id="main-content">
+        <iframe id="video-player" frameborder="0" allowfullscreen></iframe>
+        <button id="random-video-button">Next Video</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
