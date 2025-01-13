@@ -34,7 +34,7 @@ body {
     scrollbar-width: thin; /* For Firefox */
     scrollbar-color: #4a90e2 #1e1e2f; /* Thumb and track colors for Firefox */
     scroll-behavior: smooth;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 #sidebar::-webkit-scrollbar {
