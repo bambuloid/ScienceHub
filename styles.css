@@ -32,7 +32,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
     scrollbar-width: thin; /* For Firefox */
-    scrollbar-color: #4a90e2 #1e1e2f; /* Thumb and track colors for Firefox */
+    scrollbar-color: #28445f #1e1e2f; /* Thumb and track colors for Firefox */
     scroll-behavior: smooth;
     overflow-y: hidden;
 }
