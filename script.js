@@ -1,4 +1,4 @@
-const apiKey = "AIzaSyANh3Bn69AquORDdAh35hExtRys1jsNnHM";
+const apiKey = process.env.YOUTUBE_API_KEY;
 const videoPlayer = document.getElementById("video-player");
 const randomButton = document.getElementById("random-video-button");
 const channelOptionsContainer = document.getElementById("channel-options");
